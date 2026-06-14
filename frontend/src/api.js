@@ -2,10 +2,9 @@ import axios from "axios";
 
 // Backend ka base URL
 const API = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://xeno-crm-production-3a08.up.railway.app",
   headers: { "Content-Type": "application/json" }
 });
-
 // ── Customers ──
 export const getCustomers    = ()     => API.get("/customers");
 export const createCustomer  = (data) => API.post("/customers", data);
