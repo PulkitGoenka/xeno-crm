@@ -1,0 +1,17 @@
+# Virtual environments
+backend/venv/
+channel-service/venv/
+
+# Environment files (API keys hain inme!)
+backend/.env
+channel-service/.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node modules
+frontend/node_modules/
+
+# Build folder
+frontend/build/
